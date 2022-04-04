@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* .header > div:last-child{
+    padding-left: 4rem;
+} */
+
+.heading {
+    font-size: 2rem;
+}
+
+.input-wrapper {
+    display: inherit;
+    justify-content: center;
+    gap: 4px;
+    padding: 1rem;
+}
+
+.listing-todo {
+    margin: 0 auto;
+}
+
+.listing-todo ul {
+    padding: 0px;
+}
+
+.listing-todo ul li{
+    list-style: none;
+    background: aliceblue;
+    padding: 1.2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.remove-list {
+    color: red;
+    padding-right: 8px;
+}
